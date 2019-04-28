@@ -40,7 +40,7 @@ public class Google {
 
         WebElement submitBtn = driver.findElement(By.xpath("//input[@name='btnK']"));
         driver.findElement(By.xpath("//input[@name='q']")).sendKeys(word);
-        log.info("Click on '" + submitBtn + "' element");
+        log.info("Click on 'submitBtn' element");
         submitBtn.click();
 
         List<String> resultLinks = new ArrayList<>();
