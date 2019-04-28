@@ -1,0 +1,1 @@
+ID; NumCode; CharCode; Nominal; Name; Value;
